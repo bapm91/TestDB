@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/card_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card:cardCornerRadius="@dimen/card_view_radius"
+    card:cardElevation="@dimen/card_view_elevation"
+    card:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/card_view_radius"
+        >
+
+        <TextView
+            android:id="@+id/id_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/view"
+            android:minWidth="15dp"
+            android:text="@string/id"
+            android:textSize="@dimen/text_size"/>
+
+        <TextView
+            android:id="@+id/text_id_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="15dp"
+            android:text="@string/text_id_title"
+            android:textSize="@dimen/text_size"/>
+
+        <View
+            android:id="@+id/view"
+            style="@style/View"
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/text_id_title"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/view"
+            android:layout_below="@+id/view"
+            android:minWidth="15dp"
+            android:text="@string/title"
+            android:textSize="@dimen/text_size"/>
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view"
+            android:minWidth="15dp"
+            android:text="@string/text_title"
+            android:textSize="@dimen/text_size"/>
+
+        <View
+            android:id="@+id/view2"
+            style="@style/View"
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/text_title"/>
+
+
+        <TextView
+            android:id="@+id/body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/view"
+            android:layout_below="@+id/view2"
+            android:minWidth="15dp"
+            android:text="@string/body"
+            android:textSize="@dimen/text_size"/>
+
+        <TextView
+            android:id="@+id/text_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view2"
+            android:minWidth="15dp"
+            android:text="@string/text_body"
+            android:textSize="@dimen/text_size"/>
+
+        <View
+            android:id="@+id/view3"
+            style="@style/View"
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/text_body"/>
+
+        <TextView
+            android:id="@+id/create_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/view"
+            android:layout_below="@+id/view3"
+            android:minWidth="15dp"
+            android:text="@string/created_date"
+            android:textSize="@dimen/text_size"/>
+
+        <TextView
+            android:id="@+id/text_create_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view3"
+            android:minWidth="15dp"
+            android:text="@string/text_create_date"
+            android:textSize="@dimen/text_size"/>
+
+        <View
+            android:id="@+id/view4"
+            style="@style/View"
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/create_date"/>
+
+        <TextView
+            android:id="@+id/start_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/view"
+            android:layout_below="@+id/view4"
+            android:minWidth="15dp"
+            android:text="@string/start_date"
+            android:textSize="@dimen/text_size"/>
+
+        <TextView
+            android:id="@+id/text_start_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view4"
+            android:minWidth="15dp"
+            android:text="@string/text_start_date"
+            android:textSize="@dimen/text_size"/>
+
+        <View
+            android:id="@+id/view5"
+            style="@style/View"
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/start_date"/>
+
+        <TextView
+            android:id="@+id/deadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/view"
+            android:layout_below="@+id/view5"
+            android:minWidth="15dp"
+            android:text="@string/deadline"
+            android:textSize="@dimen/text_size"/>
+
+        <TextView
+            android:id="@+id/text_deadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view5"
+            android:minWidth="15dp"
+            android:text="@string/text_deadline"
+            android:textSize="@dimen/text_size"/>
+
+        <View
+            android:id="@+id/view6"
+            style="@style/View"
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/deadline"/>
+
+        <TextView
+            android:id="@+id/likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/view"
+            android:layout_below="@+id/view6"
+            android:minWidth="15dp"
+            android:text="@string/likes_counter"
+            android:textSize="@dimen/text_size"/>
+
+        <TextView
+            android:id="@+id/text_likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view6"
+            android:minWidth="15dp"
+            android:text="@string/likes"
+            android:textSize="@dimen/text_size"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

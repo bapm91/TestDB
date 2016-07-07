@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TestDB</string>
+    <string name="id">1</string>
+    <string name="title">Аграрна політика</string>
+    <string name="body">Test</string>
+    <string name="created_date">1453899734</string>
+    <string name="start_date">1453899740</string>
+    <string name="deadline">1454457600</string>
+    <string name="likes_counter">91</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_id_title">ID</string>
+    <string name="text_title">Title</string>
+    <string name="text_body">Body</string>
+    <string name="text_likes">text_likes</string>
+    <string name="likes">Likes</string>
+    <string name="text_deadline">Deadline</string>
+    <string name="text_start_date">Srart Date</string>
+    <string name="text_create_date">Create Date</string>
+</resources>
